@@ -61,7 +61,7 @@ public class LoginFunction {//  Class Starts Here
 		
 		Thread.sleep(2000);
 		
-		SeleniumHighlight.getColor(driver, driver.findElement(pom.dropdown), "green");
+		SeleniumHighlight.getColor(driver, driver.findElement(pom.dropdown), "black");
 		driver.findElement(pom.dropdown).click();
 		
 		//driver.findElement(By.xpath("(//*[@class='oxd-userdropdown-link'])[4]")).click();
